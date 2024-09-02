@@ -1,1 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal Planning App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Meal Planning App</h1>
+    
+    <form id="meal-form">
+        <label for="day">Day:</label>
+        <input type="text" id="day" name="day" required><br><br>
+        
+        <label for="breakfast">Breakfast:</label>
+        <input type="text" id="breakfast" name="breakfast" required><br><br>
+        
+        <label for="soup">Soup:</label>
+        <input type="text" id="soup" name="soup"><br><br>
+        
+        <label for="main-dish">Main Dish:</label>
+        <input type="text" id="main-dish" name="main-dish" required><br><br>
+        
+        <button type="submit">Add Meal</button>
+    </form>
+
+    <div id="meal-list">
+        <!-- This is where the meal list will be displayed -->
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
 
